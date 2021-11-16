@@ -1,0 +1,126 @@
+{
+    "items": [
+      {
+        "id": "1",
+        "title" : " Implement a v1 prototype interface of a web application " ,
+        "description": "",
+        "category": "vefforrit",
+        "tags": ["framendi", "html"],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": 1638648500000,
+        "deleted": false,
+        "completed": false
+      },
+      {
+        "id": "2",
+        "title" : "Post Planning for Sprint # 4 " ,
+        "description": "Eftir retro fyrir sprett #3",
+        "category": "skipulag",
+        "tags": ["fundir"],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": 1636648500000,
+        "deleted": false,
+        "completed": false
+      },
+      {
+        "id": "3",
+        "title": "Test task fyrir deleted",
+        "description": "vefþjónustur",
+        "category": "",
+        "tags": [],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": null,
+        "deleted": true,
+        "completed": false
+      },
+      {
+        "id": "4",
+        "title": "Test task sem er lokið",
+        "description": "",
+        "category": "vefforrit",
+        "tags": [],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": 1635638500000,
+        "deleted": false,
+        "completed": true
+      },
+      {
+        "id": "5",
+        "title" : " Appearance Design " ,
+        "description" : " We have to get a real design, this is not working anymore " ,
+        "category": "vefforrit",
+        "tags": ["framendi", "hönnun"],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": null,
+        "deleted": false,
+        "completed": false
+      },
+      {
+        "id": "6",
+        "title" : " Implement a new database schema " ,
+        "description" : " Conform to the latest design documents " ,
+        "category": "vefþjónustur",
+        "tags": ["bakendi", "gagnagrunnur"],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": 1636848500000,
+        "deleted": false,
+        "completed": false
+      },
+      {
+        "id": "7",
+        "title": "v1.5 af vefþjónustuskilum",
+        "description" : " Start blocking the next sprint " ,
+        "category": "vefþjónustur",
+        "tags": ["bakendi"],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": 1636498500000,
+        "deleted": false,
+        "completed": false
+      },
+      {
+        "id": "8",
+        "title" : " Hiring a Project Manager " ,
+        "description" : " We are very chaotic, which is very ironic considering the project we are working on " ,
+        "category": "skipulag",
+        "tags": ["ráðning"],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": 1635498500000,
+        "deleted": false,
+        "completed": false
+      },
+      {
+        "id": "9",
+        "title" : " Select frontend framework to work on " ,
+        "description" : " Vanilla JS is fine, but we will do it faster if we choose a good framework " ,
+        "category": "vefforrit",
+        "tags": ["framendi", "framework"],
+        "priority": false,
+        "modified": 1635638400000,
+        "due": null,
+        "deleted": false,
+        "completed": false
+      }
+    ],
+    "categories": [
+      {
+        "id": "vefforrit",
+        "title": "Vefforrit"
+      },
+      {
+        "id": "skipulag",
+        "title": "Skipulag"
+      },
+      {
+        "id": "vefþjónustur",
+        "title": "Vefþjónustur"
+      }
+    ]
+  }
