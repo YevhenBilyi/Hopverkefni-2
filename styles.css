@@ -1,0 +1,42 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.left, .right {
+  width: 30%;
+  margin: 2em;
+}
+
+.left div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  color: grey;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.flokkur {
+  display: flex;
+  align-items: center;
+}
+
+.flokkur button {
+  height: 20px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 8px;
+}
+
+#add {
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */

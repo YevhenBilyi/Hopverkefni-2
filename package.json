@@ -1,0 +1,29 @@
+{
+  "name": "hopverkefni-2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000H\u0000o\u0000p\u0000v\u0000e\u0000r\u0000k\u0000e\u0000f\u0000n\u0000i\u0000-\u00002\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html *.css",
+    "sass": "dart-sass styles.scss styles.css",
+    "sass-watch": "dart-sass --watch styles.scss styles.css",
+    "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync",
+    "lint-scss": "stylelint styles.scss ./**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YevhenBilyi/Hopverkefni-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YevhenBilyi/Hopverkefni-2/issues"
+  },
+  "homepage": "https://github.com/YevhenBilyi/Hopverkefni-2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "concurrently": "^6.4.0",
+    "dart-sass": "^1.25.0",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  }
+}
