@@ -8,7 +8,14 @@
     "sass": "dart-sass styles.scss styles.css",
     "sass-watch": "dart-sass --watch styles.scss styles.css",
     "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync",
-    "lint-scss": "stylelint styles.scss ./**/*.scss"
+    "lint-scss": "stylelint styles.scss ./**/*.scss",
+    "lint": "eslint ./**/*.js",
+    "prettier": "prettier --write .",
+    "copy:html": "cpy ./*.html ./build/",
+    "copy:js": "cpy ./*.js ./build/",
+    "copy:lib": "cpy ./lib/*.js ./build/lib/",
+    "copy:css": "cpy ./*.css ./build/",
+    "build": "concurrently npm:copy:*"
   },
   "repository": {
     "type": "git",
@@ -24,6 +31,12 @@
     "browser-sync": "^2.27.7",
     "concurrently": "^6.4.0",
     "dart-sass": "^1.25.0",
-    "stylelint-config-sass-guidelines": "^9.0.1"
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "cpy-cli": "^3.1.1",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.2",
+    "prettier": "2.4.1"
   }
 }
