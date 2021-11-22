@@ -2,7 +2,7 @@
   "name": "hopverkefni-2",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000H\u0000o\u0000p\u0000v\u0000e\u0000r\u0000k\u0000e\u0000f\u0000n\u0000i\u0000-\u00002\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html *.css",
     "sass": "dart-sass styles.scss styles.css",
@@ -31,6 +31,8 @@
     "browser-sync": "^2.27.7",
     "concurrently": "^6.4.0",
     "dart-sass": "^1.25.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "cpy-cli": "^3.1.1",
     "eslint": "7.32.0",
