@@ -2,7 +2,7 @@
 <html lang="is">
   <head>
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="main.js"></script>
+    <script type="module" src="./lib/ui.js"></script>
     <meta charset="utf-8" />
     <title>Hópverkefni 2</title>
   </head>
@@ -13,39 +13,28 @@
     <main>
         <div class="left">
             <div class="verkefni">
-                <h3>Verkefni</h3>
-                <p class="verkefni-num"> 37</p>
+                <h3 id="projects-link">Verkefni</h3>
+                <p id="verkefni-num"> 37</p>
             </div>
             <div class="finished">
-                <h3>Kláruð verkefni</h3>
-                <p class="verkefni2-num">37</p>
+                <h3 id = "finished-link">Kláruð verkefni</h3>
+                <p id="verkefni2-num">37</p>
             </div>
             <h2>Flokkar</h2>
             <div class="vefforit">
-                <h3>Vefforit</h3>
-                <p class="vefforit-num">6</p>
+                <h3 id ="vefforitF-link">Vefforrit</h3>
+                <p id="vefforit-num">6</p>
             </div>
             <div class="Skipulag">
-                <h3>Skipulag</h3>
-                <p class="skipulag-num">6</p>
+                <h3 id = "skipulagF-link">Skipulag</h3>
+                <p id="skipulag-num">6</p>
             </div>
             <div class="vefþjónustur">
-                <h3>Vefþjónustur</h3>
-                <p class="vefþjónustur-num">9</p>
+                <h3 id = "vefF-link">Vefþjónustur</h3>
+                <p id="vefþjónustur-num">9</p>
             </div>
-            <h2>Tags</h2>
-            <div class="vefforit2">
-                <h3>Vefforit</h3>
-                <p class="vefforit2">10</p>
-            </div>
-            <div class="skipulag2">
-                <h3>Skipulag</h3>
-                <p class="skipulag2"> 10</p>
-            </div>
-            <div class="vefþjónustur2">
-                <h3>Vefþjónustur</h3>
-                <p class="vefþjónustur2">10</p>
-            </div>
+            <h2 id = "tags">Tags</h2>
+
         </div>
         <div class="right">
             <div>
@@ -54,16 +43,7 @@
                     <option value="1">Dagsetningu</option>
                 </select>
             </div>
-            <div class="task">
-                <input type="checkbox" id="task1" name="task1" value="task1">
-                <label for="task1"> Titill á task</label> <br>
-                <p>Lýsing á verkefni, ef einhver</p> <br>
-                <div class="flokkur">
-                    <p>10 nóv</p>
-                    <button>Tag</button>
-                    <button>Tag</button>
-                    <button>Tag</button>
-                    <label for=""> Flokkur</label>
+            <div id = "task" class="task">
                 </div>
                 <div>
                     <button id="add">+</button>
