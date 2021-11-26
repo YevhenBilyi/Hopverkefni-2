@@ -3,19 +3,23 @@ main {
   justify-content: center;
 }
 
-.left, .right {
-  width: 30%;
+.right {
   margin: 2em;
+  width: 30%;
 }
 
+.left {
+  margin: 2em;
+  width: 30%;
+}
 .left div {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 p {
-  color: grey;
+  color: #808080;
 }
 
 header h1 {
@@ -23,18 +27,17 @@ header h1 {
 }
 
 .flokkur {
-  display: flex;
   align-items: center;
+  display: flex;
 }
-
 .flokkur button {
+  border-radius: 8px;
   height: 20px;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  border-radius: 8px;
 }
 
-#add {
+#new {
   border-radius: 50%;
   font-size: 16px;
 }

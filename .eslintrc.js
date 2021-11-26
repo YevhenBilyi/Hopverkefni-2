@@ -14,6 +14,7 @@ module.exports = {
     'no-use-before-define': 0,
     'no-plusplus': 0,
     'no-param-reassign': 0,
+    'prefer-destructuring': 0,
     quotes: ['error', 'single'],
     'no-console': [
       'warn',
